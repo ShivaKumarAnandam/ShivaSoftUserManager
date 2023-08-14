@@ -1,0 +1,171 @@
+@charset "ISO-8859-1";
+/* body {
+  overflow-x: hidden; Prevent horizontal scrolling
+} */
+
+body, h1, h2, h3, h4, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a base font style */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Styling for the main container */
+.main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.main::-webkit-scrollbar {
+    width: 0.5em;
+    background-color: transparent;
+}
+
+.main::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+.main {   
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 100%, rgba(0, 0, 0, 0.5) 50%), url(index1.avif) 75%;
+    background-position: center;
+    background-size: cover; /* Use cover to fill the entire container while maintaining aspect ratio */
+    height: 100vh;
+}
+
+.navbar {
+	width: 1250px;
+	height: 20px;
+	margin: 30px;
+}
+
+.menu {
+	width: 500px;
+	float: left;
+	height: 50px;
+}
+
+
+ul {
+	float: left; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+ul li {
+	list-style: none;
+	margin-left: 62px;
+	margin-top: 27px;
+	font-size: 14px;
+}
+
+ul li img {
+	height: 70px;
+	margin-top: 0%;
+	padding-right: 100px;
+	padding-left: 5px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-family: Arial;
+	transition: 0.4s ease-in-out;
+}
+
+ul li a .btn {
+	background-color: #ff7200;
+	height: 30px;
+	width: 70px;
+}
+
+ul li a:hover {
+	color: orange;
+}
+
+.content {
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	color: #fff;
+	position: relative;
+}
+
+.content p {
+	color: white;
+	padding-left: 100px;
+	font-family: Arial;
+	letter-spacing: 1.5px;
+	line-height: 30px;
+}
+
+
+.content h1 {
+	font-family: 'Times New Roman';
+	font-size: 50px;
+	padding-left: 50px;
+	margin-top: 9%;
+	letter-spacing: 2px;
+}
+
+.content h2 {
+	padding-left: 80px;
+	color: activecaption;
+	
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content .cn {
+	width: 160px;
+	height: 40px;
+	background: #ff7200;
+	border: none;
+	margin-bottom: 10px;
+	margin-left: 100px;
+	font-size: 18px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.conntent.cn a {
+	text-decoration: none;
+	color: #000;
+	transition: .3s ease;
+}
+
+.cn:hover {
+	background-color: white;
+}
+
+.conntent span {
+	color: #ff7200;
+	font-size: 60px;
+}
+
+.main2 {
+	width: 100%;
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%,
+		rgba(0, 0, 0, 0.5) 50%), url(websiteimage.jpg) 50%;
+	background-position: center;
+	background-size: cover;
+	height: 109vh;
+}
+
+.navbar {
+	width: 1200px;
+	height: 20px;
+	margin: 30px;
+}
+.hyperlink {
+    color: aqua; /* Replace with your desired color code */
+    /* Additional styling can be added here */
+}
